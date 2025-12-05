@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual env
+venv/
+.env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data & model besar (kalau mau nggak di-push)
+*.pkl
+!waterpoint_small_model.pkl
+
+
+# VSCode
+.vscode/
