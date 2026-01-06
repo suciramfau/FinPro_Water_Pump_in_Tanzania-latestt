@@ -40,7 +40,7 @@ preprocessor = ColumnTransformer(
     remainder="passthrough"
 )
 
-# 5. Model Random Forest (versi ringan tapi cukup kuat)
+# 5. Model Random Forest (versi ringan)
 rf_model = Pipeline(steps=[
     ("preprocess", preprocessor),
     ("model", RandomForestClassifier(
